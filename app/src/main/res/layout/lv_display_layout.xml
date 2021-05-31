@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/TV_agentName"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:text="Agent Name"
+                    android:textStyle="bold"
+                    android:gravity="start" />
+
+                <TextView
+                    android:id="@+id/TV_Amount"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:text="Amount"
+                    android:textStyle="bold"
+                    android:gravity="start"
+                    android:layout_marginTop="8dp"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

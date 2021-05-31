@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutusActivity"
+
+    android:background="@color/followingbg">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In this Application, a Web-Based
+Centralized Co-operative Information Management System is presented. It
+is developed to enhance the operations of co-operative society where they
+can log in using unique password to register their society and also provide
+detail of their financial statement such as membership saving, daily
+collection, interest rate, number of register member.
+"
+
+        android:textColor="@color/White"
+        android:padding="40dp"
+        android:textSize="30sp"/>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/CIV"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/profile"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/agentName_TV"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:text="Agent Name"
+                    android:textStyle="bold"
+                    android:gravity="start" />
+
+                <ImageView
+                    android:id="@+id/online_IV"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/profile"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/userID_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:text="User ID"
+                android:textStyle="bold"
+                android:gravity="start"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/email_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:text="Email ID"
+                android:textStyle="bold"
+                android:gravity="start"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QRcodeActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/grad_bg"
+
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="Generate QR code"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+
+
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email ID"
+        android:id="@+id/QR_et_email"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate"
+        android:id="@+id/QR_Btn_generate"
+        android:background="@drawable/grad_bg"
+
+
+        android:textColor="@color/White"
+        android:textSize="22sp"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/QR_imgView"/>
+</LinearLayout>

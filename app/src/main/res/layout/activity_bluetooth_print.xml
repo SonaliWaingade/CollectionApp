@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BluetoothPrint"
+    android:orientation="vertical"
+    android:background="@color/White">
+
+
+
+        <TextView android:id="@+id/lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attach Printer"
+           android:textSize="20sp"
+
+            android:padding="5dp"/>
+        <TextView android:id="@+id/lblPrinterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="20sp"
+
+            android:text="Printer Name"/>
+        <EditText android:id="@+id/txtText"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="150dp" />
+        <Button android:id="@+id/btnConnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/grad_bg"
+            android:textColor="@color/White"
+            android:text="Connect Printer"/>
+        <Button android:id="@+id/btnDisconnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:background="@drawable/grad_bg"
+            android:textColor="@color/White"
+            android:text="Disconnect Printer"/>
+
+        <Button android:id="@+id/btnPrint"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="@color/White"
+            android:background="@drawable/grad_bg"
+
+            android:text="Print Document"/>
+
+    </LinearLayout>
+

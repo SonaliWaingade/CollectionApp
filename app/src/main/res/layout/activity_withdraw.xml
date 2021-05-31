@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/grad_bg"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Withdraw"
+        android:textSize="25sp"
+        android:textColor="@color/White"
+        android:fontFamily="sans-serif-medium" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/White"
+        >
+
+
+
+        <EditText
+            android:id="@+id/txt_AgentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Agent Name"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"
+            android:outlineSpotShadowColor="@color/White"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/White"
+
+
+        >
+
+        <EditText
+            android:id="@+id/txt_AgentNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Agent Number"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"
+            android:outlineSpotShadowColor="@color/White"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/White"
+
+
+        >
+
+        <EditText
+            android:id="@+id/txt_AccNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Account No"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"
+            android:outlineSpotShadowColor="@color/White"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/White"
+
+
+        >
+
+        <EditText
+            android:id="@+id/txt_AccountName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Account Name"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"
+            android:outlineSpotShadowColor="@color/White"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/White"
+
+
+
+        >
+
+        <EditText
+            android:id="@+id/txt_AvaiBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Available Balance"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textSize="15sp"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"
+            android:outlineSpotShadowColor="@color/White"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/White"
+
+
+        >
+
+        <EditText
+            android:id="@+id/txt_AccountOpening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Account Opening"
+            android:textSize="15sp"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"
+            android:outlineSpotShadowColor="@color/White"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/White"
+
+
+        >
+
+        <EditText
+            android:id="@+id/txt_Penalty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Penalty%"
+            android:textSize="15sp"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"
+            android:outlineSpotShadowColor="@color/White"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/White"
+
+
+        >
+
+        <EditText
+            android:id="@+id/txt_WithDraw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Withdrawl Amount"
+            android:textSize="15sp"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"
+            android:outlineSpotShadowColor="@color/White"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/White"
+
+
+        >
+
+        <EditText
+            android:id="@+id/txt_penaltyAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Penalty Amount"
+            android:textSize="15sp"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"
+            android:outlineSpotShadowColor="@color/White"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/White"
+
+
+        >
+
+        <EditText
+            android:id="@+id/txt_MobNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:textSize="15sp"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"
+            android:outlineSpotShadowColor="@color/White"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:textColor="@color/White"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_bg"
+        />
+
+
+</LinearLayout>

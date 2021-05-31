@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BankActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/Bank_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/bank_account"
+        android:layout_below="@id/Bank_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Acccount"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_below="@id/bank_account"
+        android:id="@+id/bank_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Balance"
+        android:inputType="textPersonName"/>
+
+    <Switch
+        android:id="@+id/bank_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_alignTop="@id/Bank_name"
+        android:text="Switch"/>
+
+    <ToggleButton
+        android:id="@+id/bank_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bank_balance"
+        android:textOn="Deposit"
+        android:textOff="Withdraw"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="Toggle button"/>
+
+    <EditText
+        android:layout_below="@id/bank_enterammount"
+        android:id="@+id/bank_enterammount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="94dp"
+        android:ems="10"
+        android:hint="Enter the amount"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:id="@+id/bank_Totalamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b"
+        android:layout_alignStart="@+id/b"
+        android:text="Total Amount"
+        android:textSize="18sp"
+        android:layout_marginTop="42dp"
+        android:layout_below="@id/bank_balance"
+        />
+<Button
+    android:id="@+id/bank_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="DoHandle"
+    android:layout_marginTop="22dp"
+    android:layout_below="@+id/tb"
+    android:text="Do"
+    android:layout_alignEnd="@+id/tb"
+    android:layout_alignRight="@+id/tb" />
+
+
+
+</LinearLayout>
